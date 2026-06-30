@@ -1,0 +1,26 @@
+R Setup:
+
+platform       x86_64-w64-mingw32               
+arch           x86_64                           
+os             mingw32                          
+crt            ucrt                             
+system         x86_64, mingw32                  
+status                                          
+major          4                                
+minor          6.0                              
+year           2026                             
+month          04                               
+day            24                               
+svn rev        89956                            
+language       R                                
+version.string R version 4.6.0 (2026-04-24 ucrt)
+
+Packages will be automatically installed with the script.
+
+#####################################################################
+
+Python Setup:
+
+Python 3.13.14
+
+run: "pip install -r requirements.txt" to get all necessary packages.
