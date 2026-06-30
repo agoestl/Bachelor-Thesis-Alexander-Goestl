@@ -1,0 +1,6 @@
+,coef,se,tstat,pval,n
+btcret_all,-0.02,0.01,-3.24,0.0012,225.0
+btcret_no_issuance,-0.0,0.01,-0.14,0.8851,90.0
+btcret_with_issuance,-0.04,0.01,-3.65,0.0003,135.0
+vwret5_all,-0.02,0.01,-3.19,0.0014,225.0
+vwret5_with_issuance,-0.04,0.01,-3.68,0.0002,135.0

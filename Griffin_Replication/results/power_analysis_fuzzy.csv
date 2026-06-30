@@ -1,0 +1,41 @@
+sample,adjustment,n,se,mde_80pct,paper_coef,power_at_paper_effect,detectable
+All,no covariates,9500,90.06,252.31,26.42,0.0478,No
+All,linear (Ridge),9500,10276.39,28790.18,26.42,0.0252,No
+All,ML (RandomForest),9500,792.9,2221.38,26.42,0.027,No
+All,ML (LightGBM),9500,94.36,264.36,26.42,0.0465,No
+All,ML (XGBoost),9500,89.16,249.79,26.42,0.0481,No
+All,lasso+interactions,9500,90.38,253.21,26.42,0.0477,No
+All,ML (NNet),9500,89.87,251.78,26.42,0.0479,No
+All,ML (SuperLearner),9500,90.61,253.85,26.42,0.0476,No
+Auth,no covariates,2645,144.48,404.77,33.88,0.0422,No
+Auth,linear (Ridge),2645,18648.31,52244.83,33.88,0.0251,No
+Auth,ML (RandomForest),2645,4916.32,13773.49,33.88,0.0254,No
+Auth,ML (LightGBM),2645,158.76,444.78,33.88,0.0404,No
+Auth,ML (XGBoost),2645,153.5,430.04,33.88,0.041,No
+Auth,lasso+interactions,2645,141.61,396.73,33.88,0.0427,No
+Auth,ML (NNet),2645,141.9,397.54,33.88,0.0426,No
+Auth,ML (SuperLearner),2645,140.03,392.31,33.88,0.0429,No
+Auth_NegRet,no covariates,1287,349.04,977.87,45.34,0.0336,No
+Auth_NegRet,linear (Ridge),1287,3100.15,8685.33,45.34,0.0259,No
+Auth_NegRet,ML (RandomForest),1287,2028.57,5683.21,45.34,0.0263,No
+Auth_NegRet,ML (LightGBM),1287,366.71,1027.37,45.34,0.0332,No
+Auth_NegRet,ML (XGBoost),1287,353.4,990.08,45.34,0.0335,No
+Auth_NegRet,lasso+interactions,1287,341.94,957.97,45.34,0.0338,No
+Auth_NegRet,ML (NNet),1287,333.5,934.33,45.34,0.0341,No
+Auth_NegRet,ML (SuperLearner),1287,334.93,938.33,45.34,0.034,No
+Auth_PosRet,no covariates,1358,101.78,285.15,20.17,0.0391,No
+Auth_PosRet,linear (Ridge),1358,137.7,385.78,20.17,0.0349,No
+Auth_PosRet,ML (RandomForest),1358,10989.61,30788.33,20.17,0.0251,No
+Auth_PosRet,ML (LightGBM),1358,119.25,334.09,20.17,0.0367,No
+Auth_PosRet,ML (XGBoost),1358,108.02,302.63,20.17,0.0381,No
+Auth_PosRet,lasso+interactions,1358,101.43,284.16,20.17,0.0391,No
+Auth_PosRet,ML (NNet),1358,107.43,300.97,20.17,0.0382,No
+Auth_PosRet,ML (SuperLearner),1358,108.33,303.5,20.17,0.0381,No
+All,linear (rdrobust),1602,235.31,659.24,26.42,0.0323,No
+Auth,linear (rdrobust),464,430.26,1205.41,33.88,0.03,No
+Auth_NegRet,linear (rdrobust),214,7962.99,22309.0,45.34,0.0253,No
+Auth_PosRet,linear (rdrobust),250,187.55,525.44,20.17,0.032,No
+All,"linear (rdrobust, opt-bw)",2119,168.77,472.82,26.42,0.0357,No
+Auth,"linear (rdrobust, opt-bw)",851,212.5,595.34,33.88,0.0359,No
+Auth_NegRet,"linear (rdrobust, opt-bw)",408,547.96,1535.16,45.34,0.0302,No
+Auth_PosRet,"linear (rdrobust, opt-bw)",426,134.98,378.16,20.17,0.0351,No

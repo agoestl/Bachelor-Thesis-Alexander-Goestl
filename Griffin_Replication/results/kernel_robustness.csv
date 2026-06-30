@@ -1,0 +1,19 @@
+method,design,sample,adjustment,coef,se,tstat,pval,ci_low,ci_high,n,kernel,ci_width
+RDFlex,sharp,Auth,no covariates,-26.92,20.34,-1.32,0.1857,-66.73,12.88,464,triangular,79.6113758410016
+RDFlex,sharp,Auth,linear (Ridge),-28.08,20.56,-1.37,0.1719,-68.61,12.22,464,triangular,80.82683194280831
+RDFlex,sharp,Auth,lasso (LassoCV),-27.24,20.37,-1.34,0.1812,-67.13,12.65,464,triangular,79.77890726197803
+RDFlex,sharp,Auth,ML (RandomForest),-24.76,20.24,-1.22,0.2211,-64.49,14.96,464,triangular,79.44998244185115
+RDFlex,sharp,Auth,ML (LightGBM),-25.14,20.16,-1.25,0.2124,-64.93,14.26,464,triangular,79.19079127529868
+RDFlex,sharp,Auth,ML (XGBoost),-26.75,20.27,-1.32,0.1868,-66.43,12.91,464,triangular,79.335897120954
+RDFlex,sharp,Auth,lasso+interactions,-27.29,20.25,-1.35,0.1778,-67.03,12.45,464,triangular,79.4817748283092
+RDFlex,sharp,Auth,ML (NNet),-21.64,20.38,-1.06,0.2884,-61.64,18.41,464,triangular,80.04853861263925
+RDFlex,sharp,Auth,ML (SuperLearner),-24.96,20.05,-1.24,0.2132,-64.5,14.51,464,triangular,79.00907710571889
+RDFlex,sharp,Auth,no covariates,-27.21,20.32,-1.34,0.1806,-66.93,12.68,464,epanechnikov,79.60291346837187
+RDFlex,sharp,Auth,linear (Ridge),-29.2,20.59,-1.42,0.1561,-68.75,10.85,464,epanechnikov,79.59456769376274
+RDFlex,sharp,Auth,lasso (LassoCV),-27.53,20.34,-1.35,0.1759,-67.47,12.42,464,epanechnikov,79.88820888435166
+RDFlex,sharp,Auth,ML (RandomForest),-23.81,20.18,-1.18,0.2379,-63.46,15.66,464,epanechnikov,79.11940041696094
+RDFlex,sharp,Auth,ML (LightGBM),-25.25,20.1,-1.26,0.209,-64.51,14.03,464,epanechnikov,78.54199885288901
+RDFlex,sharp,Auth,ML (XGBoost),-26.72,20.24,-1.32,0.1867,-66.42,12.97,464,epanechnikov,79.39142730777309
+RDFlex,sharp,Auth,lasso+interactions,-26.92,20.28,-1.33,0.1844,-66.63,12.78,464,epanechnikov,79.40988629585993
+RDFlex,sharp,Auth,ML (NNet),-21.09,20.2,-1.04,0.2964,-60.69,18.55,464,epanechnikov,79.23786898840025
+RDFlex,sharp,Auth,ML (SuperLearner),-25.43,20.08,-1.27,0.2053,-64.61,13.92,464,epanechnikov,78.532804372431

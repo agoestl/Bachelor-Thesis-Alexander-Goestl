@@ -1,0 +1,103 @@
+method,design,sample,adjustment,coef,tstat,se,ci_low,ci_high,n,pval
+Paper (Griffin & Shams 2020),first_stage,All,none (OLS),14.38,2.69,5.345724907063198,3.9023791821561336,24.857620817843866,1602,
+Paper (Griffin & Shams 2020),first_stage,Auth,none (OLS),34.22,2.87,11.92334494773519,10.850243902439026,57.58975609756097,464,
+Paper (Griffin & Shams 2020),first_stage,NoAuth,none (OLS),3.82,0.92,4.152173913043478,-4.318260869565215,11.958260869565216,1138,
+Paper (Griffin & Shams 2020),sharp,Auth,none (OLS),20.61,2.42,8.516528925619834,3.917603305785125,37.30239669421488,464,
+Paper (Griffin & Shams 2020),sharp,NoAuth,none (OLS),-3.4,-0.74,4.594594594594595,-12.405405405405405,5.6054054054054046,1138,
+Paper (Griffin & Shams 2020),sharp,Auth_NegRet,none (OLS),32.87,2.58,12.740310077519378,7.898992248062015,57.84100775193798,214,
+Paper (Griffin & Shams 2020),sharp,Auth_PosRet,none (OLS),11.91,1.29,9.232558139534884,-6.185813953488374,30.005813953488374,250,
+Paper (Griffin & Shams 2020),fuzzy,All,none (OLS),26.42,2.06,12.825242718446603,1.282524271844661,51.55747572815534,1602,
+Paper (Griffin & Shams 2020),fuzzy,Auth,none (OLS),33.88,2.05,16.526829268292687,1.4874146341463401,66.27258536585367,464,
+Paper (Griffin & Shams 2020),fuzzy,Auth_NegRet,none (OLS),45.34,2.37,19.130801687763714,7.84362869198312,82.83637130801688,214,
+Paper (Griffin & Shams 2020),fuzzy,Auth_PosRet,none (OLS),20.17,1.3,15.515384615384615,-10.240153846153845,50.58015384615385,250,
+OLS replication,first_stage,All,none (OLS),14.75,2.02,7.3,,,1603,0.0433
+OLS replication,first_stage,Auth,none (OLS),60.83,3.52,17.26,,,464,0.0004
+OLS replication,first_stage,NoAuth,none (OLS),0.22,0.03,7.57,,,1139,0.9767
+OLS replication,sharp,Auth,none (OLS),20.61,2.43,8.49,,,464,0.0152
+OLS replication,sharp,NoAuth,none (OLS),-3.4,-0.75,4.56,,,1138,0.4562
+OLS replication,sharp,Auth_NegRet,none (OLS),32.87,2.59,12.69,,,214,0.0096
+OLS replication,sharp,Auth_PosRet,none (OLS),11.91,1.29,9.23,,,250,0.1967
+IV2SLS replication,fuzzy,All,none (2SLS),26.42,2.01,13.12,,,1602,0.0441
+IV2SLS replication,fuzzy,Auth,none (2SLS),33.88,2.0,16.97,,,464,0.0458
+IV2SLS replication,fuzzy,Auth_NegRet,none (2SLS),45.34,2.43,18.68,,,214,0.0152
+IV2SLS replication,fuzzy,Auth_PosRet,none (2SLS),22.92,1.03,22.33,,,250,0.3046
+RDFlex,sharp,Auth,no covariates,-27.11,-1.33,20.32,-66.95,12.73,464,0.1821
+RDFlex,sharp,Auth,linear (Ridge),-27.6,-1.35,20.41,-67.61,12.4,464,0.1763
+RDFlex,sharp,Auth,ML (RandomForest),-25.11,-1.24,20.22,-64.83,14.54,464,0.2143
+RDFlex,sharp,Auth,ML (LightGBM),-22.63,-1.07,21.24,-63.97,19.48,464,0.2867
+RDFlex,sharp,Auth,ML (XGBoost),-26.72,-1.29,20.71,-67.96,13.71,464,0.197
+RDFlex,sharp,Auth,lasso+interactions,-27.0,-1.33,20.31,-66.8,12.81,464,0.1837
+RDFlex,sharp,Auth,ML (NNet),-20.97,-1.01,20.77,-62.11,20.19,464,0.3127
+RDFlex,sharp,Auth,ML (SuperLearner),-22.71,-1.1,20.69,-62.44,17.12,464,0.2724
+RDFlex,sharp,NoAuth,no covariates,19.02,2.19,8.67,2.01,36.0,1138,0.0283
+RDFlex,sharp,NoAuth,linear (Ridge),19.73,2.24,8.81,2.5,36.97,1138,0.0251
+RDFlex,sharp,NoAuth,ML (RandomForest),18.79,2.17,8.67,1.72,35.96,1138,0.0301
+RDFlex,sharp,NoAuth,ML (LightGBM),16.4,1.82,9.04,-1.21,34.02,1138,0.0695
+RDFlex,sharp,NoAuth,ML (XGBoost),17.65,1.99,8.87,0.22,35.08,1138,0.0466
+RDFlex,sharp,NoAuth,lasso+interactions,19.05,2.21,8.63,2.18,35.92,1138,0.0273
+RDFlex,sharp,NoAuth,ML (NNet),20.06,2.24,8.95,2.55,37.58,1138,0.0249
+RDFlex,sharp,NoAuth,ML (SuperLearner),18.78,2.13,8.83,1.48,36.09,1138,0.0334
+RDFlex,sharp,Auth_NegRet,no covariates,-64.11,-1.92,33.46,-129.99,1.39,214,0.0554
+RDFlex,sharp,Auth_NegRet,linear (Ridge),-57.93,-1.66,34.92,-124.89,9.61,214,0.0971
+RDFlex,sharp,Auth_NegRet,ML (RandomForest),-62.03,-1.85,33.62,-127.16,3.13,214,0.065
+RDFlex,sharp,Auth_NegRet,ML (LightGBM),-63.51,-1.72,36.99,-135.66,8.65,214,0.086
+RDFlex,sharp,Auth_NegRet,ML (XGBoost),-57.64,-1.62,35.58,-127.37,12.09,214,0.1052
+RDFlex,sharp,Auth_NegRet,lasso+interactions,-48.73,-1.57,31.09,-110.37,12.92,214,0.117
+RDFlex,sharp,Auth_NegRet,ML (NNet),-48.64,-1.45,33.53,-114.36,17.08,214,0.1469
+RDFlex,sharp,Auth_NegRet,ML (SuperLearner),-60.12,-1.79,33.67,-126.33,6.42,214,0.0742
+RDFlex,sharp,Auth_PosRet,no covariates,-0.41,-0.02,24.63,-48.58,47.32,250,0.9869
+RDFlex,sharp,Auth_PosRet,linear (Ridge),0.82,0.03,26.69,-53.94,53.12,250,0.9756
+RDFlex,sharp,Auth_PosRet,ML (RandomForest),-2.27,-0.09,26.15,-53.83,48.42,250,0.9309
+RDFlex,sharp,Auth_PosRet,ML (LightGBM),3.52,0.13,27.54,-51.84,58.42,250,0.8983
+RDFlex,sharp,Auth_PosRet,ML (XGBoost),-0.66,-0.02,26.87,-52.76,52.0,250,0.9805
+RDFlex,sharp,Auth_PosRet,lasso+interactions,-0.88,-0.04,24.41,-48.76,46.96,250,0.9712
+RDFlex,sharp,Auth_PosRet,ML (NNet),4.38,0.16,27.73,-49.7,59.86,250,0.8745
+RDFlex,sharp,Auth_PosRet,ML (SuperLearner),1.62,0.06,26.75,-51.31,54.34,250,0.9518
+RDFlex,fuzzy,All,no covariates,-53.56,-0.59,90.06,-230.08,122.91,9500,0.552
+RDFlex,fuzzy,All,linear (Ridge),362.24,0.04,10276.39,-18780.77,21501.83,9500,0.9719
+RDFlex,fuzzy,All,ML (RandomForest),576.4,0.73,792.9,-977.65,2130.45,9500,0.4673
+RDFlex,fuzzy,All,ML (LightGBM),-56.06,-0.59,94.36,-240.99,128.74,9500,0.5524
+RDFlex,fuzzy,All,ML (XGBoost),-48.3,-0.54,89.16,-223.01,126.41,9500,0.588
+RDFlex,fuzzy,All,lasso+interactions,-57.9,-0.64,90.38,-235.04,119.23,9500,0.5217
+RDFlex,fuzzy,All,ML (NNet),-51.52,-0.57,89.87,-228.05,124.79,9500,0.5665
+RDFlex,fuzzy,All,ML (SuperLearner),-59.2,-0.65,90.61,-236.92,118.51,9500,0.5135
+RDFlex,fuzzy,Auth,no covariates,155.82,1.08,144.48,-127.44,438.99,2645,0.2808
+RDFlex,fuzzy,Auth,linear (Ridge),256.83,0.01,18648.31,-39110.71,33987.54,2645,0.989
+RDFlex,fuzzy,Auth,ML (RandomForest),4783.84,0.97,4916.32,-4802.54,14469.07,2645,0.3305
+RDFlex,fuzzy,Auth,ML (LightGBM),169.48,1.07,158.76,-144.3,480.64,2645,0.2857
+RDFlex,fuzzy,Auth,ML (XGBoost),157.42,1.03,153.5,-140.26,458.42,2645,0.3051
+RDFlex,fuzzy,Auth,lasso+interactions,148.81,1.05,141.61,-129.48,426.35,2645,0.2933
+RDFlex,fuzzy,Auth,ML (NNet),141.19,1.0,141.9,-138.8,419.31,2645,0.3197
+RDFlex,fuzzy,Auth,ML (SuperLearner),141.84,1.01,140.03,-131.62,416.3,2645,0.3111
+RDFlex,fuzzy,Auth_NegRet,no covariates,336.19,0.96,349.04,-349.13,1019.26,1287,0.3355
+RDFlex,fuzzy,Auth_NegRet,linear (Ridge),1023.19,0.33,3100.15,-4965.35,7187.02,1287,0.7414
+RDFlex,fuzzy,Auth_NegRet,ML (RandomForest),2587.27,1.28,2028.57,-1392.72,6559.12,1287,0.2022
+RDFlex,fuzzy,Auth_NegRet,ML (LightGBM),353.64,0.96,366.71,-356.96,1072.84,1287,0.3349
+RDFlex,fuzzy,Auth_NegRet,ML (XGBoost),330.03,0.93,353.4,-365.23,1022.54,1287,0.3504
+RDFlex,fuzzy,Auth_NegRet,lasso+interactions,331.52,0.97,341.94,-341.33,1001.71,1287,0.3323
+RDFlex,fuzzy,Auth_NegRet,ML (NNet),307.87,0.92,333.5,-341.17,967.59,1287,0.3559
+RDFlex,fuzzy,Auth_NegRet,ML (SuperLearner),313.57,0.94,334.93,-340.79,968.42,1287,0.3491
+RDFlex,fuzzy,Auth_PosRet,no covariates,4.01,0.04,101.78,-195.54,207.09,1358,0.9686
+RDFlex,fuzzy,Auth_PosRet,linear (Ridge),4.98,0.04,137.7,-264.9,274.87,1358,0.9711
+RDFlex,fuzzy,Auth_PosRet,ML (RandomForest),-1.14,-0.0,10989.61,-21456.74,21495.83,1358,0.9999
+RDFlex,fuzzy,Auth_PosRet,ML (LightGBM),-29.63,-0.25,119.25,-263.36,203.58,1358,0.8038
+RDFlex,fuzzy,Auth_PosRet,ML (XGBoost),2.91,0.03,108.02,-208.97,216.73,1358,0.9785
+RDFlex,fuzzy,Auth_PosRet,lasso+interactions,2.45,0.02,101.43,-195.28,201.51,1358,0.9807
+RDFlex,fuzzy,Auth_PosRet,ML (NNet),14.67,0.14,107.43,-189.92,217.08,1358,0.8914
+RDFlex,fuzzy,Auth_PosRet,ML (SuperLearner),-4.37,-0.04,108.33,-216.7,205.01,1358,0.9678
+rdrobust,sharp,Auth,linear (rdrobust),-26.0,-1.06,24.43,-87.97,7.8,464,0.1008
+rdrobust,sharp,NoAuth,linear (rdrobust),19.43,1.64,11.86,-6.49,40.01,1138,0.1577
+rdrobust,sharp,Auth_NegRet,linear (rdrobust),-55.05,-1.29,42.74,-152.72,14.83,214,0.1067
+rdrobust,sharp,Auth_PosRet,linear (rdrobust),6.38,0.19,32.84,-71.36,57.38,250,0.8315
+rdrobust,fuzzy,All,linear (rdrobust),-126.14,-0.54,235.31,-522.39,400.0,1602,0.7948
+rdrobust,fuzzy,Auth,linear (rdrobust),277.58,0.65,430.26,-271.01,1415.58,464,0.1835
+rdrobust,fuzzy,Auth_NegRet,linear (rdrobust),1504.17,0.19,7962.99,-9447.02,21767.34,214,0.4392
+rdrobust,fuzzy,Auth_PosRet,linear (rdrobust),-35.9,-0.19,187.55,-335.12,400.07,250,0.8625
+rdrobust,sharp,Auth,"linear (rdrobust, opt-bw)",-25.09,-0.7,35.63,-94.58,45.09,129,0.4873
+rdrobust,sharp,NoAuth,"linear (rdrobust, opt-bw)",34.28,1.92,17.89,3.68,73.83,226,0.0303
+rdrobust,sharp,Auth_NegRet,"linear (rdrobust, opt-bw)",-72.75,-1.18,61.91,-190.66,52.01,70,0.2628
+rdrobust,sharp,Auth_PosRet,"linear (rdrobust, opt-bw)",-18.2,-0.42,43.71,-107.33,64.0,56,0.6201
+rdrobust,fuzzy,All,"linear (rdrobust, opt-bw)",-129.29,-0.77,168.77,-495.89,165.67,2119,0.3279
+rdrobust,fuzzy,Auth,"linear (rdrobust, opt-bw)",176.72,0.83,212.5,-240.25,592.72,851,0.4069
+rdrobust,fuzzy,Auth_NegRet,"linear (rdrobust, opt-bw)",373.14,0.68,547.96,-623.84,1524.11,408,0.4114
+rdrobust,fuzzy,Auth_PosRet,"linear (rdrobust, opt-bw)",-8.21,-0.06,134.98,-274.28,254.82,426,0.9425
