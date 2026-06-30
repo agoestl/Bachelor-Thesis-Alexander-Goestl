@@ -1,0 +1,289 @@
+depvar,time,method,parameter,value,description
+approved,1,rf,n_estimators,250,Number of trees in the forest
+approved,1,rf,max_depth,10,Maximum depth of each tree (None = unlimited)
+approved,1,rf,min_samples_split,3,Minimum samples to split an internal node
+approved,1,rf,min_samples_leaf,5,Minimum samples at each leaf node
+approved,1,rf,max_features,0.5,Fraction of features considered per split
+approved,1,lgbm,n_estimators,350,Number of boosting rounds
+approved,1,lgbm,max_depth,9,Maximum depth of each tree
+approved,1,lgbm,learning_rate,0.018187859051288217,Step size shrinkage per boosting round
+approved,1,lgbm,min_child_samples,18,Minimum samples in a leaf
+approved,1,lgbm,subsample,0.8,Fraction of rows sampled per tree
+approved,1,lgbm,colsample_bytree,0.6,Fraction of features sampled per tree
+approved,1,lgbm,reg_alpha,0.10907475835157694,L1 regularisation on leaf weights
+approved,1,lgbm,reg_lambda,0.0007122305833333872,L2 regularisation on leaf weights
+approved,1,xgb,n_estimators,250,Number of boosting rounds
+approved,1,xgb,max_depth,7,Maximum depth of each tree
+approved,1,xgb,learning_rate,0.03647316284911211,Step size shrinkage per boosting round
+approved,1,xgb,min_child_weight,3,Minimum sum of instance weight in a leaf
+approved,1,xgb,subsample,0.9,Fraction of rows sampled per tree
+approved,1,xgb,colsample_bytree,0.6,Fraction of features sampled per tree
+approved,1,xgb,reg_alpha,0.0028888383623653178,L1 regularisation on leaf weights
+approved,1,xgb,reg_lambda,0.006789053271698486,L2 regularisation on leaf weights
+approved,1,nnet,hidden_layer_sizes,"(50, 25)",Architecture (neurons per hidden layer)
+approved,1,nnet,alpha,0.00028888383623653144,L2 regularisation penalty
+approved,1,nnet,learning_rate_init,0.0005404103854647331,Initial learning rate for SGD/Adam
+approved,2,rf,n_estimators,250,Number of trees in the forest
+approved,2,rf,max_depth,10,Maximum depth of each tree (None = unlimited)
+approved,2,rf,min_samples_split,3,Minimum samples to split an internal node
+approved,2,rf,min_samples_leaf,5,Minimum samples at each leaf node
+approved,2,rf,max_features,0.5,Fraction of features considered per split
+approved,2,lgbm,n_estimators,250,Number of boosting rounds
+approved,2,lgbm,max_depth,7,Maximum depth of each tree
+approved,2,lgbm,learning_rate,0.03647316284911211,Step size shrinkage per boosting round
+approved,2,lgbm,min_child_samples,12,Minimum samples in a leaf
+approved,2,lgbm,subsample,0.9,Fraction of rows sampled per tree
+approved,2,lgbm,colsample_bytree,0.6,Fraction of features sampled per tree
+approved,2,lgbm,reg_alpha,0.0028888383623653178,L1 regularisation on leaf weights
+approved,2,lgbm,reg_lambda,0.006789053271698486,L2 regularisation on leaf weights
+approved,2,xgb,n_estimators,250,Number of boosting rounds
+approved,2,xgb,max_depth,7,Maximum depth of each tree
+approved,2,xgb,learning_rate,0.015252697030515175,Step size shrinkage per boosting round
+approved,2,xgb,min_child_weight,7,Minimum sum of instance weight in a leaf
+approved,2,xgb,subsample,0.6,Fraction of rows sampled per tree
+approved,2,xgb,colsample_bytree,1.0,Fraction of features sampled per tree
+approved,2,xgb,reg_alpha,0.7264803074826727,L1 regularisation on leaf weights
+approved,2,xgb,reg_lambda,0.0009853225172032562,L2 regularisation on leaf weights
+approved,2,nnet,hidden_layer_sizes,"(100,)",Architecture (neurons per hidden layer)
+approved,2,nnet,alpha,6.0268891286825045e-05,L2 regularisation penalty
+approved,2,nnet,learning_rate_init,0.00020511104188433984,Initial learning rate for SGD/Adam
+approved,3,rf,n_estimators,200,Number of trees in the forest
+approved,3,rf,max_depth,10,Maximum depth of each tree (None = unlimited)
+approved,3,rf,min_samples_split,8,Minimum samples to split an internal node
+approved,3,rf,min_samples_leaf,6,Minimum samples at each leaf node
+approved,3,rf,max_features,0.5,Fraction of features considered per split
+approved,3,lgbm,n_estimators,300,Number of boosting rounds
+approved,3,lgbm,max_depth,10,Maximum depth of each tree
+approved,3,lgbm,learning_rate,0.08960785365368121,Step size shrinkage per boosting round
+approved,3,lgbm,min_child_samples,20,Minimum samples in a leaf
+approved,3,lgbm,subsample,0.6,Fraction of rows sampled per tree
+approved,3,lgbm,colsample_bytree,0.6,Fraction of features sampled per tree
+approved,3,lgbm,reg_alpha,0.00019517224641449495,L1 regularisation on leaf weights
+approved,3,lgbm,reg_lambda,2.1423021757741068,L2 regularisation on leaf weights
+approved,3,xgb,n_estimators,100,Number of boosting rounds
+approved,3,xgb,max_depth,9,Maximum depth of each tree
+approved,3,xgb,learning_rate,0.08310795711416077,Step size shrinkage per boosting round
+approved,3,xgb,min_child_weight,6,Minimum sum of instance weight in a leaf
+approved,3,xgb,subsample,0.9,Fraction of rows sampled per tree
+approved,3,xgb,colsample_bytree,0.6,Fraction of features sampled per tree
+approved,3,xgb,reg_alpha,0.006199100007802264,L1 regularisation on leaf weights
+approved,3,xgb,reg_lambda,0.00037961668958008145,L2 regularisation on leaf weights
+approved,3,nnet,hidden_layer_sizes,"(50, 25)",Architecture (neurons per hidden layer)
+approved,3,nnet,alpha,4.075596440072869e-05,L2 regularisation penalty
+approved,3,nnet,learning_rate_init,0.0009780337016659412,Initial learning rate for SGD/Adam
+approved,4,rf,n_estimators,200,Number of trees in the forest
+approved,4,rf,max_depth,10,Maximum depth of each tree (None = unlimited)
+approved,4,rf,min_samples_split,8,Minimum samples to split an internal node
+approved,4,rf,min_samples_leaf,6,Minimum samples at each leaf node
+approved,4,rf,max_features,0.5,Fraction of features considered per split
+approved,4,lgbm,n_estimators,350,Number of boosting rounds
+approved,4,lgbm,max_depth,9,Maximum depth of each tree
+approved,4,lgbm,learning_rate,0.018187859051288217,Step size shrinkage per boosting round
+approved,4,lgbm,min_child_samples,18,Minimum samples in a leaf
+approved,4,lgbm,subsample,0.8,Fraction of rows sampled per tree
+approved,4,lgbm,colsample_bytree,0.6,Fraction of features sampled per tree
+approved,4,lgbm,reg_alpha,0.10907475835157694,L1 regularisation on leaf weights
+approved,4,lgbm,reg_lambda,0.0007122305833333872,L2 regularisation on leaf weights
+approved,4,xgb,n_estimators,250,Number of boosting rounds
+approved,4,xgb,max_depth,7,Maximum depth of each tree
+approved,4,xgb,learning_rate,0.015252697030515175,Step size shrinkage per boosting round
+approved,4,xgb,min_child_weight,7,Minimum sum of instance weight in a leaf
+approved,4,xgb,subsample,0.6,Fraction of rows sampled per tree
+approved,4,xgb,colsample_bytree,1.0,Fraction of features sampled per tree
+approved,4,xgb,reg_alpha,0.7264803074826727,L1 regularisation on leaf weights
+approved,4,xgb,reg_lambda,0.0009853225172032562,L2 regularisation on leaf weights
+approved,4,nnet,hidden_layer_sizes,"(100,)",Architecture (neurons per hidden layer)
+approved,4,nnet,alpha,0.00036187233309596217,L2 regularisation penalty
+approved,4,nnet,learning_rate_init,0.001096821720752952,Initial learning rate for SGD/Adam
+originated,1,rf,n_estimators,250,Number of trees in the forest
+originated,1,rf,max_depth,10,Maximum depth of each tree (None = unlimited)
+originated,1,rf,min_samples_split,3,Minimum samples to split an internal node
+originated,1,rf,min_samples_leaf,5,Minimum samples at each leaf node
+originated,1,rf,max_features,0.5,Fraction of features considered per split
+originated,1,lgbm,n_estimators,100,Number of boosting rounds
+originated,1,lgbm,max_depth,9,Maximum depth of each tree
+originated,1,lgbm,learning_rate,0.08310795711416077,Step size shrinkage per boosting round
+originated,1,lgbm,min_child_samples,23,Minimum samples in a leaf
+originated,1,lgbm,subsample,0.9,Fraction of rows sampled per tree
+originated,1,lgbm,colsample_bytree,0.6,Fraction of features sampled per tree
+originated,1,lgbm,reg_alpha,0.006199100007802264,L1 regularisation on leaf weights
+originated,1,lgbm,reg_lambda,0.00037961668958008145,L2 regularisation on leaf weights
+originated,1,xgb,n_estimators,250,Number of boosting rounds
+originated,1,xgb,max_depth,7,Maximum depth of each tree
+originated,1,xgb,learning_rate,0.015252697030515175,Step size shrinkage per boosting round
+originated,1,xgb,min_child_weight,7,Minimum sum of instance weight in a leaf
+originated,1,xgb,subsample,0.6,Fraction of rows sampled per tree
+originated,1,xgb,colsample_bytree,1.0,Fraction of features sampled per tree
+originated,1,xgb,reg_alpha,0.7264803074826727,L1 regularisation on leaf weights
+originated,1,xgb,reg_lambda,0.0009853225172032562,L2 regularisation on leaf weights
+originated,1,nnet,hidden_layer_sizes,"(100,)",Architecture (neurons per hidden layer)
+originated,1,nnet,alpha,0.00036187233309596217,L2 regularisation penalty
+originated,1,nnet,learning_rate_init,0.001096821720752952,Initial learning rate for SGD/Adam
+originated,2,rf,n_estimators,200,Number of trees in the forest
+originated,2,rf,max_depth,10,Maximum depth of each tree (None = unlimited)
+originated,2,rf,min_samples_split,8,Minimum samples to split an internal node
+originated,2,rf,min_samples_leaf,6,Minimum samples at each leaf node
+originated,2,rf,max_features,0.5,Fraction of features considered per split
+originated,2,lgbm,n_estimators,100,Number of boosting rounds
+originated,2,lgbm,max_depth,9,Maximum depth of each tree
+originated,2,lgbm,learning_rate,0.08310795711416077,Step size shrinkage per boosting round
+originated,2,lgbm,min_child_samples,23,Minimum samples in a leaf
+originated,2,lgbm,subsample,0.9,Fraction of rows sampled per tree
+originated,2,lgbm,colsample_bytree,0.6,Fraction of features sampled per tree
+originated,2,lgbm,reg_alpha,0.006199100007802264,L1 regularisation on leaf weights
+originated,2,lgbm,reg_lambda,0.00037961668958008145,L2 regularisation on leaf weights
+originated,2,xgb,n_estimators,250,Number of boosting rounds
+originated,2,xgb,max_depth,7,Maximum depth of each tree
+originated,2,xgb,learning_rate,0.015252697030515175,Step size shrinkage per boosting round
+originated,2,xgb,min_child_weight,7,Minimum sum of instance weight in a leaf
+originated,2,xgb,subsample,0.6,Fraction of rows sampled per tree
+originated,2,xgb,colsample_bytree,1.0,Fraction of features sampled per tree
+originated,2,xgb,reg_alpha,0.7264803074826727,L1 regularisation on leaf weights
+originated,2,xgb,reg_lambda,0.0009853225172032562,L2 regularisation on leaf weights
+originated,2,nnet,hidden_layer_sizes,"(50,)",Architecture (neurons per hidden layer)
+originated,2,nnet,alpha,0.00033205591037519585,L2 regularisation penalty
+originated,2,nnet,learning_rate_init,0.0011207606211860567,Initial learning rate for SGD/Adam
+originated,3,rf,n_estimators,200,Number of trees in the forest
+originated,3,rf,max_depth,10,Maximum depth of each tree (None = unlimited)
+originated,3,rf,min_samples_split,8,Minimum samples to split an internal node
+originated,3,rf,min_samples_leaf,6,Minimum samples at each leaf node
+originated,3,rf,max_features,0.5,Fraction of features considered per split
+originated,3,lgbm,n_estimators,100,Number of boosting rounds
+originated,3,lgbm,max_depth,9,Maximum depth of each tree
+originated,3,lgbm,learning_rate,0.08310795711416077,Step size shrinkage per boosting round
+originated,3,lgbm,min_child_samples,23,Minimum samples in a leaf
+originated,3,lgbm,subsample,0.9,Fraction of rows sampled per tree
+originated,3,lgbm,colsample_bytree,0.6,Fraction of features sampled per tree
+originated,3,lgbm,reg_alpha,0.006199100007802264,L1 regularisation on leaf weights
+originated,3,lgbm,reg_lambda,0.00037961668958008145,L2 regularisation on leaf weights
+originated,3,xgb,n_estimators,350,Number of boosting rounds
+originated,3,xgb,max_depth,9,Maximum depth of each tree
+originated,3,xgb,learning_rate,0.018187859051288217,Step size shrinkage per boosting round
+originated,3,xgb,min_child_weight,5,Minimum sum of instance weight in a leaf
+originated,3,xgb,subsample,0.8,Fraction of rows sampled per tree
+originated,3,xgb,colsample_bytree,0.6,Fraction of features sampled per tree
+originated,3,xgb,reg_alpha,0.10907475835157694,L1 regularisation on leaf weights
+originated,3,xgb,reg_lambda,0.0007122305833333872,L2 regularisation on leaf weights
+originated,3,nnet,hidden_layer_sizes,"(100,)",Architecture (neurons per hidden layer)
+originated,3,nnet,alpha,0.00036187233309596217,L2 regularisation penalty
+originated,3,nnet,learning_rate_init,0.001096821720752952,Initial learning rate for SGD/Adam
+originated,4,rf,n_estimators,200,Number of trees in the forest
+originated,4,rf,max_depth,10,Maximum depth of each tree (None = unlimited)
+originated,4,rf,min_samples_split,8,Minimum samples to split an internal node
+originated,4,rf,min_samples_leaf,6,Minimum samples at each leaf node
+originated,4,rf,max_features,0.5,Fraction of features considered per split
+originated,4,lgbm,n_estimators,350,Number of boosting rounds
+originated,4,lgbm,max_depth,9,Maximum depth of each tree
+originated,4,lgbm,learning_rate,0.018187859051288217,Step size shrinkage per boosting round
+originated,4,lgbm,min_child_samples,18,Minimum samples in a leaf
+originated,4,lgbm,subsample,0.8,Fraction of rows sampled per tree
+originated,4,lgbm,colsample_bytree,0.6,Fraction of features sampled per tree
+originated,4,lgbm,reg_alpha,0.10907475835157694,L1 regularisation on leaf weights
+originated,4,lgbm,reg_lambda,0.0007122305833333872,L2 regularisation on leaf weights
+originated,4,xgb,n_estimators,250,Number of boosting rounds
+originated,4,xgb,max_depth,7,Maximum depth of each tree
+originated,4,xgb,learning_rate,0.015252697030515175,Step size shrinkage per boosting round
+originated,4,xgb,min_child_weight,7,Minimum sum of instance weight in a leaf
+originated,4,xgb,subsample,0.6,Fraction of rows sampled per tree
+originated,4,xgb,colsample_bytree,1.0,Fraction of features sampled per tree
+originated,4,xgb,reg_alpha,0.7264803074826727,L1 regularisation on leaf weights
+originated,4,xgb,reg_lambda,0.0009853225172032562,L2 regularisation on leaf weights
+originated,4,nnet,hidden_layer_sizes,"(50,)",Architecture (neurons per hidden layer)
+originated,4,nnet,alpha,0.00033205591037519585,L2 regularisation penalty
+originated,4,nnet,learning_rate_init,0.0011207606211860567,Initial learning rate for SGD/Adam
+securitized,1,rf,n_estimators,200,Number of trees in the forest
+securitized,1,rf,max_depth,10,Maximum depth of each tree (None = unlimited)
+securitized,1,rf,min_samples_split,8,Minimum samples to split an internal node
+securitized,1,rf,min_samples_leaf,6,Minimum samples at each leaf node
+securitized,1,rf,max_features,0.5,Fraction of features considered per split
+securitized,1,lgbm,n_estimators,250,Number of boosting rounds
+securitized,1,lgbm,max_depth,7,Maximum depth of each tree
+securitized,1,lgbm,learning_rate,0.03647316284911211,Step size shrinkage per boosting round
+securitized,1,lgbm,min_child_samples,12,Minimum samples in a leaf
+securitized,1,lgbm,subsample,0.9,Fraction of rows sampled per tree
+securitized,1,lgbm,colsample_bytree,0.6,Fraction of features sampled per tree
+securitized,1,lgbm,reg_alpha,0.0028888383623653178,L1 regularisation on leaf weights
+securitized,1,lgbm,reg_lambda,0.006789053271698486,L2 regularisation on leaf weights
+securitized,1,xgb,n_estimators,250,Number of boosting rounds
+securitized,1,xgb,max_depth,7,Maximum depth of each tree
+securitized,1,xgb,learning_rate,0.015252697030515175,Step size shrinkage per boosting round
+securitized,1,xgb,min_child_weight,7,Minimum sum of instance weight in a leaf
+securitized,1,xgb,subsample,0.6,Fraction of rows sampled per tree
+securitized,1,xgb,colsample_bytree,1.0,Fraction of features sampled per tree
+securitized,1,xgb,reg_alpha,0.7264803074826727,L1 regularisation on leaf weights
+securitized,1,xgb,reg_lambda,0.0009853225172032562,L2 regularisation on leaf weights
+securitized,1,nnet,hidden_layer_sizes,"(50, 25)",Architecture (neurons per hidden layer)
+securitized,1,nnet,alpha,4.075596440072869e-05,L2 regularisation penalty
+securitized,1,nnet,learning_rate_init,0.0009780337016659412,Initial learning rate for SGD/Adam
+securitized,2,rf,n_estimators,350,Number of trees in the forest
+securitized,2,rf,max_depth,3,Maximum depth of each tree (None = unlimited)
+securitized,2,rf,min_samples_split,8,Minimum samples to split an internal node
+securitized,2,rf,min_samples_leaf,2,Minimum samples at each leaf node
+securitized,2,rf,max_features,0.5,Fraction of features considered per split
+securitized,2,lgbm,n_estimators,100,Number of boosting rounds
+securitized,2,lgbm,max_depth,4,Maximum depth of each tree
+securitized,2,lgbm,learning_rate,0.011450964268326641,Step size shrinkage per boosting round
+securitized,2,lgbm,min_child_samples,13,Minimum samples in a leaf
+securitized,2,lgbm,subsample,0.7,Fraction of rows sampled per tree
+securitized,2,lgbm,colsample_bytree,0.7,Fraction of features sampled per tree
+securitized,2,lgbm,reg_alpha,1.3921548533046495,L1 regularisation on leaf weights
+securitized,2,lgbm,reg_lambda,0.0060780830996819525,L2 regularisation on leaf weights
+securitized,2,xgb,n_estimators,150,Number of boosting rounds
+securitized,2,xgb,max_depth,6,Maximum depth of each tree
+securitized,2,xgb,learning_rate,0.011085122517311707,Step size shrinkage per boosting round
+securitized,2,xgb,min_child_weight,8,Minimum sum of instance weight in a leaf
+securitized,2,xgb,subsample,0.7,Fraction of rows sampled per tree
+securitized,2,xgb,colsample_bytree,0.9,Fraction of features sampled per tree
+securitized,2,xgb,reg_alpha,0.003618723330959626,L1 regularisation on leaf weights
+securitized,2,xgb,reg_lambda,0.039841905944346875,L2 regularisation on leaf weights
+securitized,2,nnet,hidden_layer_sizes,"(100, 50)",Architecture (neurons per hidden layer)
+securitized,2,nnet,alpha,0.6732248920775336,L2 regularisation penalty
+securitized,2,nnet,learning_rate_init,0.004138040112561018,Initial learning rate for SGD/Adam
+securitized,3,rf,n_estimators,250,Number of trees in the forest
+securitized,3,rf,max_depth,5,Maximum depth of each tree (None = unlimited)
+securitized,3,rf,min_samples_split,2,Minimum samples to split an internal node
+securitized,3,rf,min_samples_leaf,6,Minimum samples at each leaf node
+securitized,3,rf,max_features,log2,Fraction of features considered per split
+securitized,3,lgbm,n_estimators,350,Number of boosting rounds
+securitized,3,lgbm,max_depth,9,Maximum depth of each tree
+securitized,3,lgbm,learning_rate,0.018187859051288217,Step size shrinkage per boosting round
+securitized,3,lgbm,min_child_samples,18,Minimum samples in a leaf
+securitized,3,lgbm,subsample,0.8,Fraction of rows sampled per tree
+securitized,3,lgbm,colsample_bytree,0.6,Fraction of features sampled per tree
+securitized,3,lgbm,reg_alpha,0.10907475835157694,L1 regularisation on leaf weights
+securitized,3,lgbm,reg_lambda,0.0007122305833333872,L2 regularisation on leaf weights
+securitized,3,xgb,n_estimators,250,Number of boosting rounds
+securitized,3,xgb,max_depth,7,Maximum depth of each tree
+securitized,3,xgb,learning_rate,0.015252697030515175,Step size shrinkage per boosting round
+securitized,3,xgb,min_child_weight,7,Minimum sum of instance weight in a leaf
+securitized,3,xgb,subsample,0.6,Fraction of rows sampled per tree
+securitized,3,xgb,colsample_bytree,1.0,Fraction of features sampled per tree
+securitized,3,xgb,reg_alpha,0.7264803074826727,L1 regularisation on leaf weights
+securitized,3,xgb,reg_lambda,0.0009853225172032562,L2 regularisation on leaf weights
+securitized,3,nnet,hidden_layer_sizes,"(50, 25)",Architecture (neurons per hidden layer)
+securitized,3,nnet,alpha,4.075596440072869e-05,L2 regularisation penalty
+securitized,3,nnet,learning_rate_init,0.0009780337016659412,Initial learning rate for SGD/Adam
+securitized,4,rf,n_estimators,400,Number of trees in the forest
+securitized,4,rf,max_depth,5,Maximum depth of each tree (None = unlimited)
+securitized,4,rf,min_samples_split,8,Minimum samples to split an internal node
+securitized,4,rf,min_samples_leaf,6,Minimum samples at each leaf node
+securitized,4,rf,max_features,0.8,Fraction of features considered per split
+securitized,4,lgbm,n_estimators,350,Number of boosting rounds
+securitized,4,lgbm,max_depth,9,Maximum depth of each tree
+securitized,4,lgbm,learning_rate,0.018187859051288217,Step size shrinkage per boosting round
+securitized,4,lgbm,min_child_samples,18,Minimum samples in a leaf
+securitized,4,lgbm,subsample,0.8,Fraction of rows sampled per tree
+securitized,4,lgbm,colsample_bytree,0.6,Fraction of features sampled per tree
+securitized,4,lgbm,reg_alpha,0.10907475835157694,L1 regularisation on leaf weights
+securitized,4,lgbm,reg_lambda,0.0007122305833333872,L2 regularisation on leaf weights
+securitized,4,xgb,n_estimators,250,Number of boosting rounds
+securitized,4,xgb,max_depth,7,Maximum depth of each tree
+securitized,4,xgb,learning_rate,0.015252697030515175,Step size shrinkage per boosting round
+securitized,4,xgb,min_child_weight,7,Minimum sum of instance weight in a leaf
+securitized,4,xgb,subsample,0.6,Fraction of rows sampled per tree
+securitized,4,xgb,colsample_bytree,1.0,Fraction of features sampled per tree
+securitized,4,xgb,reg_alpha,0.7264803074826727,L1 regularisation on leaf weights
+securitized,4,xgb,reg_lambda,0.0009853225172032562,L2 regularisation on leaf weights
+securitized,4,nnet,hidden_layer_sizes,"(50,)",Architecture (neurons per hidden layer)
+securitized,4,nnet,alpha,0.00033205591037519585,L2 regularisation penalty
+securitized,4,nnet,learning_rate_init,0.0011207606211860567,Initial learning rate for SGD/Adam
