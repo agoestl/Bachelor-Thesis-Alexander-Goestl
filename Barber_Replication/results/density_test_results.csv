@@ -1,0 +1,2 @@
+log_density_diff,t_stat,p_value,density_ratio,narrow_window,n_below,n_above,interpretation
+-0.5288441292686699,-2.409814802288968,0.01596062004936627,0.5892857142857142,10.0,784,782,SIGNIFICANT — potential manipulation

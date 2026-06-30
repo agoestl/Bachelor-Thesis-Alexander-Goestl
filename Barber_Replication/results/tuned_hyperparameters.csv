@@ -1,0 +1,101 @@
+bandwidth,method,parameter,value,description
+50,rf,n_estimators,150,Number of trees in the forest
+50,rf,max_depth,10,Maximum depth of each tree (None = unlimited)
+50,rf,min_samples_split,8,Minimum samples to split an internal node
+50,rf,min_samples_leaf,6,Minimum samples at each leaf node
+50,rf,max_features,0.5,Fraction of features considered per split
+50,lgbm,n_estimators,250,Number of boosting rounds
+50,lgbm,max_depth,9,Maximum depth of each tree
+50,lgbm,learning_rate,0.018187859051288217,Step size shrinkage per boosting round
+50,lgbm,min_child_samples,18,Minimum samples in a leaf
+50,lgbm,subsample,0.8,Fraction of rows sampled per tree
+50,lgbm,colsample_bytree,0.6,Fraction of features sampled per tree
+50,lgbm,reg_alpha,0.10907475835157694,L1 regularisation on leaf weights
+50,lgbm,reg_lambda,0.0007122305833333872,L2 regularisation on leaf weights
+50,xgb,n_estimators,150,Number of boosting rounds
+50,xgb,max_depth,7,Maximum depth of each tree
+50,xgb,learning_rate,0.015252697030515175,Step size shrinkage per boosting round
+50,xgb,min_child_weight,7,Minimum sum of instance weight in a leaf
+50,xgb,subsample,0.6,Fraction of rows sampled per tree
+50,xgb,colsample_bytree,1.0,Fraction of features sampled per tree
+50,xgb,reg_alpha,0.7264803074826727,L1 regularisation on leaf weights
+50,xgb,reg_lambda,0.0009853225172032562,L2 regularisation on leaf weights
+50,nnet,hidden_layer_sizes,"(64,)",Architecture (neurons per hidden layer)
+50,nnet,alpha,3.661819220392426e-05,L2 regularisation penalty
+50,nnet,learning_rate_init,0.0040215545266902904,Initial learning rate for Adam
+50,nnet,max_iter,1000,Maximum training iterations
+75,rf,n_estimators,250,Number of trees in the forest
+75,rf,max_depth,5,Maximum depth of each tree (None = unlimited)
+75,rf,min_samples_split,8,Minimum samples to split an internal node
+75,rf,min_samples_leaf,6,Minimum samples at each leaf node
+75,rf,max_features,0.8,Fraction of features considered per split
+75,lgbm,n_estimators,250,Number of boosting rounds
+75,lgbm,max_depth,4,Maximum depth of each tree
+75,lgbm,learning_rate,0.18258230439200238,Step size shrinkage per boosting round
+75,lgbm,min_child_samples,25,Minimum samples in a leaf
+75,lgbm,subsample,1.0,Fraction of rows sampled per tree
+75,lgbm,colsample_bytree,1.0,Fraction of features sampled per tree
+75,lgbm,reg_alpha,0.09761125443110447,L1 regularisation on leaf weights
+75,lgbm,reg_lambda,4.067908494359541,L2 regularisation on leaf weights
+75,xgb,n_estimators,250,Number of boosting rounds
+75,xgb,max_depth,4,Maximum depth of each tree
+75,xgb,learning_rate,0.18258230439200238,Step size shrinkage per boosting round
+75,xgb,min_child_weight,7,Minimum sum of instance weight in a leaf
+75,xgb,subsample,1.0,Fraction of rows sampled per tree
+75,xgb,colsample_bytree,1.0,Fraction of features sampled per tree
+75,xgb,reg_alpha,0.09761125443110447,L1 regularisation on leaf weights
+75,xgb,reg_lambda,4.067908494359541,L2 regularisation on leaf weights
+75,nnet,hidden_layer_sizes,"(64,)",Architecture (neurons per hidden layer)
+75,nnet,alpha,3.661819220392426e-05,L2 regularisation penalty
+75,nnet,learning_rate_init,0.0040215545266902904,Initial learning rate for Adam
+75,nnet,max_iter,1000,Maximum training iterations
+100,rf,n_estimators,150,Number of trees in the forest
+100,rf,max_depth,10,Maximum depth of each tree (None = unlimited)
+100,rf,min_samples_split,8,Minimum samples to split an internal node
+100,rf,min_samples_leaf,6,Minimum samples at each leaf node
+100,rf,max_features,0.5,Fraction of features considered per split
+100,lgbm,n_estimators,150,Number of boosting rounds
+100,lgbm,max_depth,7,Maximum depth of each tree
+100,lgbm,learning_rate,0.015252697030515175,Step size shrinkage per boosting round
+100,lgbm,min_child_samples,25,Minimum samples in a leaf
+100,lgbm,subsample,0.6,Fraction of rows sampled per tree
+100,lgbm,colsample_bytree,1.0,Fraction of features sampled per tree
+100,lgbm,reg_alpha,0.7264803074826727,L1 regularisation on leaf weights
+100,lgbm,reg_lambda,0.0009853225172032562,L2 regularisation on leaf weights
+100,xgb,n_estimators,150,Number of boosting rounds
+100,xgb,max_depth,7,Maximum depth of each tree
+100,xgb,learning_rate,0.015252697030515175,Step size shrinkage per boosting round
+100,xgb,min_child_weight,7,Minimum sum of instance weight in a leaf
+100,xgb,subsample,0.6,Fraction of rows sampled per tree
+100,xgb,colsample_bytree,1.0,Fraction of features sampled per tree
+100,xgb,reg_alpha,0.7264803074826727,L1 regularisation on leaf weights
+100,xgb,reg_lambda,0.0009853225172032562,L2 regularisation on leaf weights
+100,nnet,hidden_layer_sizes,"(32,)",Architecture (neurons per hidden layer)
+100,nnet,alpha,1.7073967431528103e-05,L2 regularisation penalty
+100,nnet,learning_rate_init,0.005399484409787433,Initial learning rate for Adam
+100,nnet,max_iter,1000,Maximum training iterations
+125,rf,n_estimators,150,Number of trees in the forest
+125,rf,max_depth,10,Maximum depth of each tree (None = unlimited)
+125,rf,min_samples_split,8,Minimum samples to split an internal node
+125,rf,min_samples_leaf,6,Minimum samples at each leaf node
+125,rf,max_features,0.5,Fraction of features considered per split
+125,lgbm,n_estimators,250,Number of boosting rounds
+125,lgbm,max_depth,4,Maximum depth of each tree
+125,lgbm,learning_rate,0.18258230439200238,Step size shrinkage per boosting round
+125,lgbm,min_child_samples,25,Minimum samples in a leaf
+125,lgbm,subsample,1.0,Fraction of rows sampled per tree
+125,lgbm,colsample_bytree,1.0,Fraction of features sampled per tree
+125,lgbm,reg_alpha,0.09761125443110447,L1 regularisation on leaf weights
+125,lgbm,reg_lambda,4.067908494359541,L2 regularisation on leaf weights
+125,xgb,n_estimators,250,Number of boosting rounds
+125,xgb,max_depth,4,Maximum depth of each tree
+125,xgb,learning_rate,0.18258230439200238,Step size shrinkage per boosting round
+125,xgb,min_child_weight,7,Minimum sum of instance weight in a leaf
+125,xgb,subsample,1.0,Fraction of rows sampled per tree
+125,xgb,colsample_bytree,1.0,Fraction of features sampled per tree
+125,xgb,reg_alpha,0.09761125443110447,L1 regularisation on leaf weights
+125,xgb,reg_lambda,4.067908494359541,L2 regularisation on leaf weights
+125,nnet,hidden_layer_sizes,"(64, 32)",Architecture (neurons per hidden layer)
+125,nnet,alpha,6.290644294586152e-05,L2 regularisation penalty
+125,nnet,learning_rate_init,0.0010677482709481358,Initial learning rate for Adam
+125,nnet,max_iter,500,Maximum training iterations
